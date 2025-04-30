@@ -22,7 +22,7 @@ pipeline {
         stage('Deploy WAR') {
             steps {
                 // Replace with your actual remote details
-                sh 'scp target/MymavenWebApp01.war root@vinay-VirtualBox:/opt/tomcat/webapps/'
+                sh 'scp target/my-webapp.war root@vinay-VirtualBox:/opt/tomcat/webapps/'
             }
         }
     }
