@@ -19,10 +19,6 @@ pipeline {
             }
         }
 
-       
-        stage('Deploy WAR') {
-            steps {
-                sh 'cp target/my-webapp.war /opt/tomcat/webapps/'
             }
         }
     }
